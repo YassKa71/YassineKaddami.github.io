@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/photo_profil.jpg" alt="" /></a>
+					<h1><strong>Yassine Kaddami</strong>, Mathematical and Computational Engineer<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<a class="fas fa-home" href="index.html"> Home Page </a><br><br><br>
+						<header class="major">
+							<h2>Hyperparameter Transfer for Large Neural Networks</h2>
+						</header>
+						<p> <strong><u>Keywords:</u> Research, Linear Algebra, Probability, Random Matrix Theory, Deep Learning, Large Language Models</strong><br></p>
+						<p>In the Tensor Programs series, Greg Yang introduced the µ-Parametrization which enables the stability of optimal hyperparameters even as model's width changes <a href="#yang2022"> (Yang, 2022)</a>. This property allows a new hyperparameter tuning paradigm that reduces massively its associated costs. Furthermore, this parametrization is claimed to be the unique parametrization that enables hidden layers to update as much as possible, during the training process, without causing activations to blow-up. </p>
+						<figure style="text-align: center; font-style: italic; margin-top: 8px;">
+							<img src="images/mup1.png" alt="Training loss against learning rate on
+							Transformers of varying dmodel trained with Adam (Yang et al. 2022)" width="700">
+							<figcaption style="font-size: small;"><strong><u>Training loss against learning rate on
+								Transformers of varying d<sub>model</sub> trained with Adam (Yang 2022)</u></strong></figcaption>
+						</figure>
+                        <p><br>Since recent works to demonstrate these properties are very complex and rely on many assumptions, the core ideas behind the µ-parametrization and the link between its different properties are very difficult to cease. In this project, I proposed a simpler and more rigorous mathematical demonstration where I showed that the µ-parametrization is the unique solution of a linear optimization problem derived from studying the limit behavior, as width tends to infinity, of  the output and weights of any Multi Layer Perceptron. I'm currently working on generelazing the demonstration on Large Transformer based architectures. </p>
+						<h3>References</h3>
+						<ul>
+							<li>Yang, G. (2021). <em>Tensor Programs I: Wide Feedforward or Recurrent Neural Networks of Any Architecture are Gaussian Processes</em>. <a href="https://arxiv.org/abs/1910.12478" target="_blank">https://arxiv.org/abs/1910.12478</a></li>
+							<li>Yang, G. (2020). <em>Tensor Programs II: Neural Tangent Kernel for Any Architecture</em>. <a href="https://arxiv.org/abs/2006.14548" target="_blank">https://arxiv.org/abs/2006.14548</a></li>
+							<li>Yang, G.  (2021). <em>Tensor Programs III: Neural Matrix Laws</em>. <a href="https://arxiv.org/abs/2009.10685" target="_blank">https://arxiv.org/abs/2009.10685</a></li>
+							<li>Yang, G. (2022). <em>Tensor Programs IV: Feature Learning in Infinite-Width Neural Networks</em>. <a href="https://arxiv.org/abs/2011.14522" target="_blank">https://arxiv.org/abs/2011.14522</a></li>
+							<li id="yang2022">Yang, G. (2022). <em>Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer</em>. <a href="https://arxiv.org/abs/2203.03466" target="_blank">https://arxiv.org/abs/2203.03466</a></li>
+						</ul>
+						<a class="button" href="index.html"> Home Page</a>
+					</section>
+    </body>
+</html>
