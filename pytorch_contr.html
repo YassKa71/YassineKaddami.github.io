@@ -28,10 +28,12 @@
 						<p> <strong><u>Keywords:</u> Open Source Contribution, C++, Python, Unitary Testing, Git, Sparse Tensors</strong><br></p>
 						<h2> Broadcasting rules</h2>
 						 <p>The term broadcasting describes how NumPy treats arrays with different shapes during arithmetic operations. Subject to certain constraints, the smaller array is “broadcast” across the larger array so that they have compatible shapes.<br></p>
-						<img src="images/broadcasting_rule.png" alt="q&a section" style="margin-left: 70px;" width="700">
+						<img src="images/broadcasting_rule.png" alt="q&a section" style="margin-left: 70px; width:80%;">
+						<br><br>
 						<h2>Pytorch Issue</h2>
 						<p> In Pytorch, broadcasting during sum of sparse tensors wasn't possible. Sparse COO tensors are defined in pytorch by the indices and values of non zero values. The values can also be dense tensors (in this case we call the sparse tensor a hybrid sparse tensors).<br></p>
-						<img src="images/issue_pytorch.png" alt="q&a section" style="margin-left: 70px;" width="700">
+						<img src="images/issue_pytorch.png" alt="q&a section" style="margin-left: 70px; width:80%;">
+						<br><br>
 						<h2>Contribution</h2>
 						<p> When broadcasting rules are applicable, we expand first the sparse tensors to the broadcasted sizes and then we add them.</p>
 						<h3>References</h3>
