@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Yassine Kaddami Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/photo_profil.jpg" alt="" /></a>
+					<h1><strong>Yassine Kaddami</strong>, Mathematical and Computational Engineer<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<a class="fas fa-home" href="index.html"> Home Page </a><br><br><br>
+						<header class="major">
+							<h2>AI agents paradigms using Small Language Models</h2>
+						</header>
+						<p> <strong><u>Keywords:</u> AI agents, Small Language Models, Backward and Forward Reasoning, ReAct vs Act, research experiment</strong><br></p>
+						<h2>AI Research engineer Internship</h2>
+                        <p>
+                        I did my research internship at Yseop, an innovative company specializing in Natural
+                        Language Generation (NLG) software and AI-driven automation. Yseop develops applications
+                        that enhance efficiency and decision-making across industries, with a strong focus
+                        on the pharmaceutical sector. The internship took place within the context of a three-year
+                        <br />
+                        research project led by the Yseop Innovation Team, aiming to build an Automation Assistant
+                        for clinical, pre-clinical, and pharmacovigilance tasks. One of the key challenges in this
+                        project is the orchestration of agents using efficient small models, making reasoning and
+                        memory strategies for SLMs a central research problem. In this context, this study addresses
+                        the following research question: How can the performance of a tool agent relying solely on
+                        small language models be improved for complex, multi-step tasks?
+                        </p>
+
+                        <!-- <img src="images/broadcasting_rule.png" alt="q&a section" style="margin-left: 10%; width:80%;"> -->
+
+                        <h2>Contributions</h2>
+                        <p>During this internship, my main contributions were as follows:</p>
+                        <ul>
+                        <li>
+                            Developed a taxonomy of tool-agent problems, allowing the research to focus on a
+                            well-defined and tractable subproblem.
+                        </li>
+                        <li>
+                            Conducted a comprehensive literature review covering small language model (SLM) agents,
+                            reasoning paradigms, and large language model (LLM) reasoning and training strategies.
+                        </li>
+                        <li>
+                            Designed and implemented an experimental environment for testing AI agents, built on
+                            open-source datasets and tailored to the selected research problem.
+                        </li>
+                        <li>
+                            Applied baseline paradigms and memory systems within this environment to establish
+                            reference points for comparison.
+                        </li>
+                        <li>
+                            Designed and implemented a novel agent paradigm, achieving promising results compared to
+                            the baseline frameworks.
+                        </li>
+                        </ul>
+
+                        <h2>Mini-mind Agent</h2>
+                        <img
+                        src="images/mini_mind_agent1.png"
+                        alt="MiniMind Agent diagram 1"
+                        style="margin-left: 10%; width: 80%;"
+                        />
+                        <img
+                        src="images/mini_mind_agent2.png"
+                        alt="MiniMind Agent diagram 2"
+                        style="margin-left: 10%; width: 80%;"
+                        />
+                        <img
+                        src="images/mini_mind_agent3.png"
+                        alt="MiniMind Agent diagram 3"
+                        style="margin-left: 10%; width: 80%;"
+                        />
+
+                        <p>
+                        Our proposed method introduces the MiniMind Agent paradigm, designed to handle complex
+                        agentic tasks that require multiple tool calls and reasoning steps. Its core idea is to move
+                        beyond linear reasoning loops by structuring the problem-solving process as a hierarchical
+                        tree of reasoning and action. In this tree, the task is represented as a root node that
+                        decomposes into subtasks, represented by child nodes.
+                        </p>
+
+                        <p>
+                        A central feature of MiniMind Agent is its ability to bridge backward reasoning with forward
+                        exploration in a controlled, tree-based memory. When backward reasoning reaches an impasse,
+                        the system prompts an SLM to perform forward exploration, then evaluates whether the
+                        resulting output contains enough information to resolve the parent subtask. This process
+                        helps afterwards to push the reasoning even further by using other prompts to search for
+                        what is missing to plan a solution for the blocking subtask.
+                        </p>
+
+                        <p>
+                        This mechanism enables the agent to continue reasoning even when the solution path is not
+                        obvious. The tree memory further helps by preserving context across subtasks while allowing
+                        the system to selectively include only the most relevant information in prompts, reducing
+                        context length and bias while making prompts more focused.
+                        </p>
+
+                        <h3>Internship report</h3>
+                        <ul class="actions">
+                        <li>
+                            <a href="pdf_files/report_yseop_Yassine_Kaddami.pdf" class="button">View Report</a>
+                        </li>
+                        </ul>
+						<a class="button" href="index.html"> Home Page</a>
+					</section>
+    </body>
+</html>
