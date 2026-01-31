@@ -25,7 +25,7 @@
 						<header class="major">
 							<h2>Hyperparameter Transfer for Large Neural Networks</h2>
 						</header>
-						<p> <strong><u>Keywords:</u> Research, Linear Algebra, Probability, Random Matrix Theory, Deep Learning, Large Language Models</strong><br></p>
+						<p> <strong><u>Keywords:</u> Mathematical Research, Linear Algebra, Probability Theory, Deep Learning, Large Language Models</strong><br></p>
 						<p>In the Tensor Programs series, Greg Yang introduced the µ-Parametrization which enables the stability of optimal hyperparameters even as model's width changes <a href="#yang2022"> (Yang, 2022)</a>. This property allows a new hyperparameter tuning paradigm that reduces massively its associated costs. Furthermore, this parametrization is claimed to be the unique parametrization that enables hidden layers to update as much as possible, during the training process, without causing activations to blow-up. </p>
 						<figure style="text-align: center; font-style: italic; margin-top: 8px;">
 							<img src="images/mup1.png" alt="Training loss against learning rate on
@@ -33,7 +33,16 @@
 							<figcaption style="font-size: small;"><strong><u>Training loss against learning rate on
 								Transformers of varying d<sub>model</sub> trained with Adam (Yang 2022)</u></strong></figcaption>
 						</figure>
-                        <p><br>Since recent works to demonstrate these properties are very complex and rely on many assumptions, the core ideas behind the µ-parametrization and the link between its different properties are very difficult to cease. In this project, I proposed a simpler and more rigorous mathematical demonstration where I showed that the µ-parametrization is the unique solution of a linear optimization problem derived from studying the limit behavior, as width tends to infinity, of  the output and weights of any Multi Layer Perceptron. I'm currently working on generelazing the demonstration on Large Transformer based architectures. </p>
+                        <p><br>Since recent works to demonstrate these properties are very complex and rely on many assumptions, the core ideas behind the µ-parametrization and the link between its different properties are very difficult to cease. In this project, we worked on a rigorous mathematical demonstration, relying on elementary tools from Probability Theory and Linear Algebra. My goal was to show that the µ-parametrization is the unique solution of a linear optimization problem derived from studying the limit behavior, as width tends to infinity, of  the output and weights of any Multi Layer Perceptron. The generalization of this proof on Large Transformer based architectures is left for future work. </p>
+						<h3>Excerpt of the proof</h3>
+						Below is a non-exhaustive version of the proof. <br>
+                        <a href="pdf_files/µP_derivation.pdf" class="fas fa-file-pdf"> View an excerpt of the proof (pdf)</a>
+						<br><br>
+						<h3> Acknowledgments</h3>
+						<p>
+							I would like to thank my supervisors, <strong>Alexandre Reiffeirs-Masson</strong> and <strong>Lucas Drumetz</strong>,
+							for their guidance, insightful discussions, and feedback throughout this project.
+						</p>
 						<h3>References</h3>
 						<ul>
 							<li>Yang, G. (2021). <em>Tensor Programs I: Wide Feedforward or Recurrent Neural Networks of Any Architecture are Gaussian Processes</em>. <a href="https://arxiv.org/abs/1910.12478" target="_blank">https://arxiv.org/abs/1910.12478</a></li>
