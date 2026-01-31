@@ -36,7 +36,7 @@
                         research project led by the Yseop Innovation Team, aiming to build an Automation Assistant
                         for clinical, pre-clinical, and pharmacovigilance tasks. One of the key challenges in this
                         project is the orchestration of agents using efficient small models, making reasoning and
-                        memory strategies for SLMs a central research problem. In this context, this study addresses
+                        memory strategies for Small Language Models (SLMs) a central research problem. In this context, this study addresses
                         the following research question: How can the performance of a tool agent relying solely on
                         small language models be improved for complex, multi-step tasks?
                         </p>
@@ -69,22 +69,6 @@
                         </ul>
 
                         <h2>Mini-mind Agent</h2>
-                        <img
-                        src="images/mini_mind_agent1.png"
-                        alt="MiniMind Agent diagram 1"
-                        style="margin-left: 10%; width: 80%;"
-                        />
-                        <img
-                        src="images/mini_mind_agent2.png"
-                        alt="MiniMind Agent diagram 2"
-                        style="margin-left: 10%; width: 80%;"
-                        />
-                        <img
-                        src="images/mini_mind_agent3.png"
-                        alt="MiniMind Agent diagram 3"
-                        style="margin-left: 10%; width: 80%;"
-                        />
-
                         <p>
                         Our proposed method introduces the MiniMind Agent paradigm, designed to handle complex
                         agentic tasks that require multiple tool calls and reasoning steps. Its core idea is to move
@@ -108,11 +92,43 @@
                         the system to selectively include only the most relevant information in prompts, reducing
                         context length and bias while making prompts more focused.
                         </p>
+                        <figure style="margin-left: 10%; width: 80%; text-align: center;">
+                        <img
+                            src="images/mini_mind_agent1.jpg"
+                            alt="MiniMind Agent diagram 1"
+                            style="width: 100%;"
+                        />
+                        <figcaption><strong>(a) Phase 1:</strong> Backward chaining and Forward Exploration</figcaption>
+                        </figure>
+                        <br><br>
+
+                        <figure style="margin-left: 10%; width: 80%; text-align: center;">
+                        <img
+                            src="images/mini_mind_agent2.jpg"
+                            alt="MiniMind Agent diagram 2"
+                            style="width: 100%;"
+                        />
+                        <figcaption><strong>(b) Phase 2:</strong> Deep Reasoning to bridge Backward Chaining with Forward Output</figcaption>
+                        </figure>
+
+                        <br><br>
+                        <figure style="margin-left: 10%; width: 80%; text-align: center;">
+                        <img
+                            src="images/mini_mind_agent3.jpg"
+                            alt="MiniMind Agent diagram 3"
+                            style="width: 100%;"
+                        />
+                        <figcaption><strong>(c) Phase 3:</strong> Bridging with Intermediate Backward Steps</figcaption>
+                        </figure>
+                        <br><br>
 
                         <h3>Internship report</h3>
+                        <p>
+                        For further details on the experimental setup, the comparison between the ReAct and Act paradigms, and the internal workings of the MiniMind Agent, please consult the internship report below.
+                        </p>
                         <ul class="actions">
                         <li>
-                            <a href="pdf_files/report_yseop_Yassine_Kaddami.pdf" class="button">View Report</a>
+                            <a href="pdf_files/report_yseop_Yassine_Kaddami.pdf" class="fas fa-file-pdf"> View Internship Report (pdf)</a>
                         </li>
                         </ul>
 						<a class="button" href="index.html"> Home Page</a>
